@@ -5,41 +5,41 @@
 
 🔸 MainActivity.kt
 
-Inheritance dari ComponentActivity
-MainActivity mewarisi ComponentActivity, class dasar untuk aktivitas Compose.
+1. Inheritance dari ComponentActivity
+MainActivity mewarisi ComponentActivity, class dasar untuk aktivitas Compose. <br>
 
-Fungsi onCreate
-Fungsi utama yang dijalankan saat aplikasi dibuka. Di sini UI diatur menggunakan setContent.
+2. Fungsi onCreate
+Fungsi utama yang dijalankan saat aplikasi dibuka. Di sini UI diatur menggunakan setContent. <br>
 
-Penggunaan MyLoginTheme
+3. Penggunaan MyLoginTheme
 Mengatur tema aplikasi agar konsisten di seluruh tampilan.
 
-Menampilkan LoginScreen()
+4. Menampilkan LoginScreen()
 Fungsi Compose LoginScreen() dipanggil untuk menampilkan tampilan login di dalam Surface
 
 🔸 LoginScreen.kt
-State untuk Email & Password
+1. State untuk Email & Password
 email dan password menggunakan remember dan mutableStateOf agar UI bisa bereaksi saat nilai berubah.
 
-Layout Kolom
+2. Layout Kolom
 Menggunakan Column agar semua elemen UI ditata secara vertikal dan terpusat.
 
-Ilustrasi Login
+3. Ilustrasi Login
 Gambar login ditampilkan di bagian atas dengan Image dan painterResource.
 
-Text Penyambutan
+4. Text Penyambutan
 Dua Text untuk menyapa pengguna dan memberi instruksi login.
 
-Input Email dan Password
+5. Input Email dan Password
 Menggunakan OutlinedTextField untuk inputan dengan label dan dukungan pengamanan untuk password.
 
-Tombol Login
+T6. ombol Login
 Button berwarna ungu dengan teks putih dan sudut bulat. Belum ada aksi saat diklik (masih kosong).
 
-Tautan Lupa Password
+7. Tautan Lupa Password
 TextButton disediakan jika pengguna lupa password.
 
-Login Alternatif
+8. Login Alternatif
 Tulisan dan ikon untuk login via Facebook, Google, atau X (Twitter) menggunakan IconButton dengan gambar.
 
 ### 🖼️ App Preview : 
