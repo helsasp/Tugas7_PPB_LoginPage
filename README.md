@@ -5,8 +5,8 @@
 
 🔸 MainActivity.kt
 
-1. Inheritance dari ComponentActivity
-MainActivity mewarisi ComponentActivity, class dasar untuk aktivitas Compose. <br>
+1. Inheritance dari ComponentActivity<br>
+MainActivity mewarisi ComponentActivity, class dasar untuk aktivitas Compose. 
 
 2. Fungsi onCreate
 Fungsi utama yang dijalankan saat aplikasi dibuka. Di sini UI diatur menggunakan setContent. <br>
@@ -33,7 +33,7 @@ Dua Text untuk menyapa pengguna dan memberi instruksi login.
 5. Input Email dan Password
 Menggunakan OutlinedTextField untuk inputan dengan label dan dukungan pengamanan untuk password.
 
-T6. ombol Login
+6. Tombol Login
 Button berwarna ungu dengan teks putih dan sudut bulat. Belum ada aksi saat diklik (masih kosong).
 
 7. Tautan Lupa Password
